@@ -16,7 +16,12 @@
 
 <body>
 
-    <div class="container-fluid py-3">
+    <div class="container mt-3">
+        <span>Current Date: </span>
+        <span id="date-today"></span>
+    </div>
+
+    <div class="container bg-light rounded-4 mt-3 py-3">
         <h1>Dati inseriti:</h1>
         <div class="row row-cols-1">
             <div class="col">
@@ -43,15 +48,16 @@
 
     </div>
 
-    <div class="container text-center bg-light rounded-4 py-4">
+    <div class="container border text-center bg-light rounded-4 mt-3 py-4">
         <h1>Password Generator</h1>
-        <span id="pw-user"></span>
+        <span class="w-100 d-inline-block" id="pw-user"></span>
+        <input class="btn btn-primary m-3" type="button" value="New Password" onclick="Refresh()">
     </div>
 
 
 
 
-    <script src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 
 </body>
 
