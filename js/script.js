@@ -8,6 +8,8 @@ const colorUser = prompt('Inserisci il tuo colore');
 
 // Bonus
 const ageUser = prompt('inserisci la tua età')
+
+// Data di oggi
 let today = new Date();
 let date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
 
@@ -30,7 +32,7 @@ document.getElementById("age-user").innerHTML = ageUser
 // Password
 document.getElementById("pw-user").innerHTML = nameUser + surnameUser + colorUser + ageUser
 
-
+// Data corrente
 document.getElementById("date-today").innerHTML = date
 
 function Refresh() {
