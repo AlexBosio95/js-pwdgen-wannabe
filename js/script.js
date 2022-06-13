@@ -10,6 +10,8 @@ const ageUser = prompt('inserisci la tua età')
 // Scrittura su console
 console.log(nameUser, surnameUser ,colorUser, ageUser);
 
+
+
 // Scrittura su pagina web 
 
 // Nome
@@ -21,3 +23,5 @@ document.getElementById("color-user").innerHTML = colorUser
 // Età
 document.getElementById("age-user").innerHTML = ageUser
 
+// Password
+document.getElementById("pw-user").innerHTML = nameUser + surnameUser + colorUser + ageUser
