@@ -32,7 +32,7 @@ document.getElementById("age-user").innerHTML = ageUser
 
 
 // Password Gen
-document.getElementById("pw-user").innerHTML = nameUser + surnameUser + colorUser + currYear + ageUser
+document.getElementById("pw-user").innerHTML = nameUser + surnameUser + colorUser + currYear + ageUser + (Math.floor((Math.random() * 1000) + 1))
 
 // Data corrente
 document.getElementById("date-today").innerHTML = date
@@ -42,5 +42,6 @@ document.getElementById("date-today").innerHTML = date
 function Refresh() {
     location.reload();
 }
+
 
 
