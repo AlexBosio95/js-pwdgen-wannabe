@@ -3,6 +3,7 @@
 const nameUser = prompt('Inserisci il tuo nome');
 const surnameUser = prompt('Inserisci il tuo cognome');
 const colorUser = prompt('Inserisci il tuo colore');
+const currYear = 22;
 
 
 
@@ -29,12 +30,17 @@ document.getElementById("color-user").innerHTML = colorUser
 // Età
 document.getElementById("age-user").innerHTML = ageUser
 
-// Password
-document.getElementById("pw-user").innerHTML = nameUser + surnameUser + colorUser + ageUser
+
+// Password Gen
+document.getElementById("pw-user").innerHTML = nameUser + surnameUser + colorUser + currYear + ageUser
 
 // Data corrente
 document.getElementById("date-today").innerHTML = date
 
+
+// Refresh pagina
 function Refresh() {
     location.reload();
 }
+
+
